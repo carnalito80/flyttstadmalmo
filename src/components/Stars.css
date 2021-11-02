@@ -1,0 +1,28 @@
+.feather {
+  width: 20px;
+  height: 20px;
+  stroke: var(--primary);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: var(--primary);
+}
+
+.recen {
+  padding: 0;
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 600;
+}
+.namez {
+color: var(--primary);
+font-size: 2rem;
+padding: 0;
+margin-bottom: 2px;
+font-weight: bold;
+
+}
+.comment {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
