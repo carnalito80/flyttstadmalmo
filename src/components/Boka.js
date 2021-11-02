@@ -7,8 +7,8 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Flyttstädning-Helsingborg',
-    subject: 'Flyttstädning-Helsingborg', // optional subject of the notification email
+    name: 'Flyttstädning-Malmö',
+    subject: 'Flyttstädning-Malmö', // optional subject of the notification email
     action: 'https://formspree.io/f/xrgrldjd',
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
