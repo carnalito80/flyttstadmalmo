@@ -10,7 +10,8 @@ class Form extends React.Component {
     name: 'Flyttstädning-Malmo',
     subjectoffert: 'Flyttstädning-Malmo Offert', 
     subjectflyttstad: 'Flyttstädning-Malmo Bokning',
-    action: 'https://formspree.io/f/xrgrldjd',
+    //action: 'https://formspree.io/f/xlepjnol', //test
+    action: 'https://formspree.io/f/xrgrldjd', //prod
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.',
@@ -26,7 +27,7 @@ class Form extends React.Component {
     console.log(type.target.value);
     this.setState({type : type.target.value});
     // this.state.type = type.target.value;
-    console.log(this.state.type);
+   
   }
   handleSubmit = e => {
     e.preventDefault()
@@ -40,13 +41,18 @@ class Form extends React.Component {
       })
         return
     }
-    if (data.email !== '') {
+    if (data.matrix !== '') {
       this.setState({
         alert: "Informationen inte skickad (E). Tack!",
         disabled: true
       })
         return
     }
+
+    delete data.matrix;
+    delete data.info;
+    data._replyto = data.email;
+    
     this.setState({ disabled: true })
     fetch(form.action, {
       method: 'POST',
@@ -104,7 +110,7 @@ class Form extends React.Component {
            />
            <span>Få offert</span>
            </label>
-           <label class="Form--Label Form--Radio">
+           <label className="Form--Label Form--Radio">
            
            <input 
            className="Form--RadioInput"
@@ -120,6 +126,7 @@ class Form extends React.Component {
   {this.state.alert && (
         <div className="Form--Alert">{this.state.alert}</div>
       )}
+
     {/* OFFERT FORM BEGINS HERE */}
     {this.state.type === 'offert' && !this.state.alert &&
     <form
@@ -145,7 +152,7 @@ class Form extends React.Component {
         className='Form--Input Form--InputText'
         type='email'
         placeholder='E-post (obligatoriskt)'
-        name='epost'
+        name='email'
         required
       />
        <span>E-post (obligatoriskt)</span>
@@ -175,11 +182,11 @@ class Form extends React.Component {
           <input type="hidden" name="form-name" value={name} />
          
           <label className="Form--Shelf"><span>email</span>
-          <input autoComplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          <input autoComplete="off" className="Form--Shelf" type="text" name="matrix" placeholder="your matrix" defaultValue="" />
           </label>
          
           <label className="Form--Shelf"><span>info</span>
-          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
           </label>
           <input
             className="Button Form--SubmitButton"
@@ -232,7 +239,7 @@ class Form extends React.Component {
         className='Form--Input Form--InputText'
         type='email'
         placeholder='E-post (obligatoriskt)'
-        name='epost'
+        name='email'
         required
       />
        <span>E-post (obligatoriskt)</span>
@@ -315,12 +322,12 @@ class Form extends React.Component {
           {!!subjectflyttstad && <input type="hidden" name="subject" value={subjectflyttstad} />}
           <input type="hidden" name="form-name" value={name} />
          
-          <label class="Form--Shelf"><span>email</span>
-          <input autoComplete="off" className="Form--Shelf" type="email" name="email" value="" />
+          <label className="Form--Shelf"><span>email</span>
+          <input autoComplete="off" className="Form--Shelf" type="text" name="matrix"  placeholder="your matrix"  defaultValue="" />
           </label>
          
-          <label class="Form--Shelf"><span>info</span>
-          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" value="" />
+          <label className="Form--Shelf"><span>info</span>
+          <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
           </label>
           {/* <input type="hidden" name="g-recaptcha-response" value="03AGdBq243iwZDwtDv5bMf9SnXeAJgalEo4t6Xpt3OLcB4d6eKsPBLlD1SxwojGFcAYUB94azmSe_u80YGfRO8eCX0HzqIGObQiOJvvq-g7fZNBeumBbvYRwQZK6w0yv4gu4XtRr11FafqPKqMHbFp3ws6JJF7KG5WpJWQsNekABJlovgjknLKJbt8CLUzsmrTD1VRow_8MdgRLpmddgqhPqN2ROWrxm0tz3r76bj2XArISv2TBpXfVBMorA_Jy3EHGENihCria4k1hrI4ejWgGsZZyagqVR6M3jYsc6DCNI9IIKJd3sy0ZgpI0TdRM-kaQaWHBnFZ6iHCz0UP6OO2FtmcOe2t9zOU9zLKUpY6m3rIoR6QQgGie2-TWccgIE4huVkpAkfi1d6baSwXRNB3zmJCIcBm3J9KyBdxggKFLm3PVoJOSkhZ5idH6lcosjv6sRlTgHbx533k-5CThYg3AtVxXL6PNPmOzaJgUsNpqEqIBCOMTTJKf4Y" ></input> */}
           <input

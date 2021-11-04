@@ -138,6 +138,20 @@
   padding: 2rem;
 }
 
+.Form--Alert-Cool {
+  background: var(--cool);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.Form--Alert-Bad {
+  background: var(--danger);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
 .Form--Input-honey {
   display: none;
 }

@@ -124,7 +124,7 @@ Ni kan istället fokusera på det roliga bitarna och göra ert framtida hem till
 
 När ni anlitar oss, så är det väldigt mycket som ingår.
 Ni kan självklart utnyttja RUT-avdraget. <br></br>
-Vi har lång erfarenhet av flyttstädningar, vi garanterar ett rent hem för de nya bostadsägarna eller hyresgästerna.</p>
+Vi har lång erfarenhet av flyttstäd av olika slag, vi garanterar ett rent hem för de nya bostadsägarna eller hyresgästerna.</p>
       </div>
       <div className="PostCard--HomeP relative"><Image background title="En städare" src="/images/service-6.jpg" alt="Flyttstädning Malmö hjälper Er med flyttstädning" /></div>
          
@@ -143,7 +143,7 @@ Vi har lång erfarenhet av flyttstädningar, vi garanterar ett rent hem för de 
      <p>Livet är fyllt av jobbiga och stressiga moment. Stress för också med sig tråkiga saker såsom tjafs och bråk. Att städa boendet inför en flytt kan vara en sådan sak.
       Varför inte slippa den onödiga stressen och ge oss  fullt ansvar över städningen?<br></br><br></br>
 
-      Att flyttstäda en bostad kan ta lång tid och för att det nya ägarna av bostaden ska få ett bra första intryck av bostaden är det bra ett ta hjälp av proffs.<br></br>
+      Att utföra ett flyttstäd i en bostad kan ta lång tid och för att det nya ägarna av bostaden ska få ett bra första intryck av bostaden är det bra ett ta hjälp av proffs.<br></br>
       Vi hjälper er med hela projektet, så att du kan fokusera på annat.</p>
       </div>
          
@@ -187,7 +187,7 @@ Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare beh
 <p>Fyll i formuläret nedan för att boka en flyttstädning. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
 </div>
 <div className="container  Contact--Section1--Container">
-<Boka name="Flyttstädning Malmö" />
+<Boka name="Flyttstädning Malmö Bokning" />
 <div>
 <h5>Varför vill ni veta mitt personnummer?</h5>
 <p>
