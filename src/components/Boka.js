@@ -42,13 +42,13 @@ class Form extends React.Component {
       })
         return
     }
-    else {
+    
       delete data.matrix;
       delete data.infon;
       data._replyto = data.email;
-      console.log(data);
+      
 
-    }
+    
     this.setState({ disabled: true })
     fetch(form.action, {
       method: 'POST',

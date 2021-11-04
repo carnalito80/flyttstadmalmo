@@ -10,8 +10,8 @@ class Form extends React.Component {
     name: 'Flyttstädning-Malmo',
     subjectoffert: 'Flyttstädning-Malmo Offert', 
     subjectflyttstad: 'Flyttstädning-Malmo Bokning',
-    //action: 'https://formspree.io/f/xlepjnol', //test
     action: 'https://formspree.io/f/xrgrldjd', //prod
+    // action: 'https://formspree.io/f/xlepjnol', //test
     method: 'POST',
     successMessage: 'Tack för din förfrågan, vi hör av oss inom kort',
     errorMessage: 'Nått gick snett, var vänlig e-maila eller ring oss.',
@@ -329,7 +329,7 @@ class Form extends React.Component {
           <label className="Form--Shelf"><span>info</span>
           <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
           </label>
-          {/* <input type="hidden" name="g-recaptcha-response" value="03AGdBq243iwZDwtDv5bMf9SnXeAJgalEo4t6Xpt3OLcB4d6eKsPBLlD1SxwojGFcAYUB94azmSe_u80YGfRO8eCX0HzqIGObQiOJvvq-g7fZNBeumBbvYRwQZK6w0yv4gu4XtRr11FafqPKqMHbFp3ws6JJF7KG5WpJWQsNekABJlovgjknLKJbt8CLUzsmrTD1VRow_8MdgRLpmddgqhPqN2ROWrxm0tz3r76bj2XArISv2TBpXfVBMorA_Jy3EHGENihCria4k1hrI4ejWgGsZZyagqVR6M3jYsc6DCNI9IIKJd3sy0ZgpI0TdRM-kaQaWHBnFZ6iHCz0UP6OO2FtmcOe2t9zOU9zLKUpY6m3rIoR6QQgGie2-TWccgIE4huVkpAkfi1d6baSwXRNB3zmJCIcBm3J9KyBdxggKFLm3PVoJOSkhZ5idH6lcosjv6sRlTgHbx533k-5CThYg3AtVxXL6PNPmOzaJgUsNpqEqIBCOMTTJKf4Y" ></input> */}
+       
           <input
             className="Button Form--SubmitButton"
             type="submit"
