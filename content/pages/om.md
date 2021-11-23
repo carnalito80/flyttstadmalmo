@@ -23,4 +23,4 @@ Flyttstädning Malmö
 Epost: <a href="mailto:info@xn--flyttstdning-malm-wqb66a.nu">info@flyttstädning-malmö.nu</a>  
 Tel: <a href="tel:073 637 99 08">073 637 99 08</a>  
 Lönngatan 60, 214 49  Malmö  
-Orgnr 556930-5146  
+Orgnr 559241-9229  
