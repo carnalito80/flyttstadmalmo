@@ -46,7 +46,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
         </div>
         
           <div className="PostCard--Content">
-          <h3 className="PostCard--Title">BOKA STÄDNING</h3>
+          <h3 className="PostCard--Title">BOKA FLYTTSTÄD</h3>
           
           <div className="PostCard--Excerpt"><em>Klicka här för att boka direkt eller få offert</em></div>
           </div>
@@ -192,7 +192,7 @@ Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare beh
 <h5>Varför vill ni veta mitt personnummer?</h5>
 <p>
 Vi behöver ha ditt personnummer om du bokar en flyttstädning med oss och vill utnyttja RUT-avdraget. Vi kan nämligen inte ansöka om utbetalning för din räkning från Skatteverket om vi inte har ditt personnummer. 
-Det är Skatteverket som kräver den uppgiften – inte vi.<br></br><br></br>
+Det är Skatteverket som kräver den uppgiften – inte flyttstäd i Malmö.<br></br><br></br>
 
 Dessutom sker betalning mot faktura och då gör det faktureringsbolag som vi anlitar en kreditprövning av våra kunder.</p>
 
