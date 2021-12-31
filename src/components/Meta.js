@@ -67,7 +67,7 @@ export default class Meta extends Component {
     "@type": "WebPage",
     "@id": "https://xn--flyttstdning-malm-wqb66a.nu/#",
     "url": "https://xn--flyttstdning-malm-wqb66a.nu/",
-    "name": "Flyttstädning Malmö ➡️ Noggrann städning till fast pris.",
+    "name": "Flyttstädning Malmö ➡️ Noggrann flyttstäd till fastpris.",
     "description": "Flyttstädning Malmö utför flyttstädningar varje dag i Malmö. Vi arbetar noggrant samtidigt som vi håller låga priser. ➡️ Boka idag!",
     "inLanguage": "sv-SE"
     },
