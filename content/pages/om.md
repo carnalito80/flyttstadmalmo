@@ -2,7 +2,7 @@
 template: DefaultPage
 slug: om-oss-pa-flyttstadning-malmo
 title: Om oss
-featuredImage: '../images/flyttstadning_malmo.jpg'
+featuredImage: '../images/flyttstadning_malmo_para.webp'
 meta:
   description: Vi som arbetar på Flyttstädning Malmö har olika bakgrund men har en sak gemensamt och det är att vi vill leverera Flyttstädning till bra pris.
   title: Om oss | Flyttstädning Malmö 🧹
