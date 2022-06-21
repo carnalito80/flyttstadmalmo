@@ -18,6 +18,8 @@ meta:
 
 Malmö är en fantastisk sommarstad, med solsäkra dagar i juli och Augusti och rent allmänt trevlig temperatur. Det finns en hel del att göra i staden, förutom att njuta av grönområden som parker och badstränder. Här listar vi våra bästa tips:
 
+![](/images/boule.jpg)
+
 -   **Spela boule**
     Boule är lite av det ultimata sommarnöjet, speciellt om sommaren när solen skiner. Det finns flera ställen att prova boule i Malmö, t.ex. Göingeplan, Gröningen, och Pilstorpsparken. På [Oxie Idrottsplats](https://sv.wikipedia.org/wiki/Oxie_Idrottsplats) kan du även boka banor i förväg!
 -   **Livemusik**
