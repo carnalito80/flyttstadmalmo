@@ -4,7 +4,6 @@ title: Sommar i Malmö
 status: Published
 date: '2022-06-21'
 categories:
-  - category: Flyttstädning
   - category: Malmö
 featuredImage: '../images/boule.jpg'
 excerpt: >-

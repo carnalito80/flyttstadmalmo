@@ -9,7 +9,7 @@ meta:
   canonicalLink: https://xn--flyttstdning-malm-wqb66a.nu/om-oss-pa-flyttstadning-malmo/
 
 ---
-Vi som arbetar med **Flyttstädning Malmö** har olika bakgrund.
+Vi som arbetar med **Flyttstädning Malmö** har olika bakgrund, 
 men har en sak gemensamt och det är att vi vill leverera städning av bästa kvalité till våra kunder.
 
 Självklart är vi godkända för F-skatt och är försäkrade vid Länsförsäkringar för eventuella skador hos kund på upp till tio miljoner kronor. Vi betalar även försäkringar för vår personal ifall de skulle råka skada sig under arbetstid.
