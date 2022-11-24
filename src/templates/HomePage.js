@@ -48,7 +48,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
           <div className="PostCard--Content">
           <h3 className="PostCard--Title">BOKA FLYTTSTÄD</h3>
           
-          <div className="PostCard--Excerpt"><em>Klicka här för att boka direkt eller få offert</em></div>
+          <div className="PostCard--Excerpt"><em>Klicka här för att boka direkt med vårat formulär</em></div>
           </div>
         </Link>
         <Link to="/om-oss-pa-flyttstadning-malmo" className="PostCard">
