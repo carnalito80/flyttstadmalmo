@@ -51,6 +51,7 @@ export default () => (
         Inglasad balkong: 400 kronor<br></br>
         Vind (i hyreshus): 300 kronor<br></br>
         Källare i hyreshus: 300 kronor<br></br>
+        Kort varsel precis innan månadsskifte: 200 kronor<br></br>
         </p>
         </div>
         </div>
