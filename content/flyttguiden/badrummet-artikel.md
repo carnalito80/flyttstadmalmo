@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Badrummet
+title: Städa badrummet tips - 9 enkla steg
 status: Published
 date: '2023-04-21'
 categories:
@@ -11,12 +11,14 @@ excerpt: >-
  Badrummet är det i särklass viktigaste rummet att städa, och också det svåraste. Följer du våran guide här så klarat du det dock gallant! 
 meta:
   description: Badrummet är det i särklass viktigaste rummet att städa, och också det svåraste. Följer du våran guide här så klarat du det dock gallant.
-  title: Städa badrummet
+  title: Städa badrummet tips - 9 enkla steg
 ---
 
 Badrummet är det i särklass viktigaste rummet att städa, och också det svåraste. Följer du våran guide här så klarat du det dock gallant!
 
 ![](/images/stada_badrummet.jpg)
+
+Följ dessa 9 enkla steg:
 
 - Samla alla nödvändiga rengöringsmedel och verktyg innan du börjar städa.
 
