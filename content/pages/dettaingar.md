@@ -77,7 +77,6 @@ Exempel:
 - Rengöring av överlåtna förvaringsmöbler till nästa boende
 - Rengöring bakom eller under överlåtna förvaringsmöbler. Vi städar runt om dessa. Ställ dem gärna i mitten av rummet i så fall så att vi kan komma åt och rengöra golvlister. Vi kan i vissa fall flytta på möbler för att städa bakom eller under till en extra kostnad. Kontakta oss för att få ett pris om du önskar detta.
 - Hantverksmässiga arbeten
-- Rengöring av kakelfogar i hela badrum/ toa
 
 ### Observera
 
