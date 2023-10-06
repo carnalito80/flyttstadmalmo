@@ -6,7 +6,7 @@ featuredImage: '../images/flyttstadning.jpg'
 offertknapp: 'Begär offert'
 subtitle:
 meta:
-  description: Det som ingår i vår flyttstädning är grundläggande punkter såsom rengöring av ugn, spis, kyl och frys, badrum men även fönsterputsning.
+  description: Det som ingår i vår flyttstädning är grundläggande punkter såsom rengöring av ugn, spis, kyl och frys, badrum men även fönsterputsning. Givetvis lämnar vi också garanti.
   title: Detta ingår i flyttstädningen - Flyttstädning Malmö
   canonicalLink: https://xn--flyttstdning-malm-wqb66a.nu/detta-ingar-i-flyttstadningen/
 ---
@@ -15,6 +15,7 @@ meta:
 
 ##### Allmänt
 
+- Vi lämnar alltid 14 dagars [garanti](https://xn--flyttstdning-malm-wqb66a.nu/vanliga-fragor/) på våra flyttstädningar.
 - Dammsugning och våttorkning av golv
 - Damning av väggar vid behov. Fläckar tas bort om det inte finns risk att tapeten skadas.
 - Lister, eluttag, strömbrytare torkas av

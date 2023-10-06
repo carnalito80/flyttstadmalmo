@@ -4,14 +4,14 @@ slug: vanliga-fragor
 title: Vanliga Frågor
 featuredImage: '../images/flyttstadning-malmo.webp'
 meta:
-  description: Vi har en garanti på 14 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister. 
+  description: Vi har en garanti på 14 dagar och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Notera att vi endast kommer 1 gång och åtgärdar eventuella brister. 
   title: Vanliga Frågor | Flyttstädning Malmö
   canonicalLink: https://xn--flyttstdning-malm-wqb66a.nu/vanliga-fragor/
 
 ---
 
 #### Besiktning och garanti
-Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. **Märk väl att vi endast kommer 1 gång och åtgärdar eventuella brister.**  
+Vi har en garanti på **14 dagar** och åtgärdar eventuella fel som reklameras inom denna period. Vi åtar oss att åtgärda dem snarast och utan extra kostnad. Vår garanti omfattar inte fel som hittas efter det att garantitiden löpt ut. Notera att vi endast kommer 1 gång och åtgärdar eventuella brister.  
 Därför måste ni (eller hyresvärd / köpare) vara med vid ombesiktningen och gå igenom städningen med oss. Och vi åtgärdar enbart de brister som påpekades vid den första besiktningen.
 
 ***Förbehåll***  
