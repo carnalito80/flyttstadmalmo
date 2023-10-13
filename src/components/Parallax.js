@@ -42,18 +42,29 @@ export default () => (
             Över 159 kvm<span className="Separator"></span>
             begär offert</li>
         </ul>
-        <div className="Paratitle">
-        <p className="Paradesc">Adminavgift tillkommer med 25 kronor.<br></br>
-       
-        Dessa punkter debiteras extra:<br></br>
+        <div class="PostSection">
+                <div class="PostSection--GridJK">
+                    <div className="Paratitle">
+                        <p className="Paradesc">Administrativ avgift på 25 kronor tillkommer.<br></br>
+                    
+                        Notera att dessa punkter debiteras extra:<br></br>
 
-        Balkong: 300 kronor<br></br>
-        Inglasad balkong: 400 kronor<br></br>
-        Vind (i hyreshus): 300 kronor<br></br>
-        Källare i hyreshus: 300 kronor<br></br>
-        Kort varsel precis innan månadsskifte: 200 kronor<br></br>
-        </p>
-        </div>
+                        Kort varsel precis vid månadsskifte: 200 kronor<br></br>
+                        Balkong: 300 kronor<br></br>
+                        Inglasad balkong: 400 kronor<br></br>
+                        Vind (i hyreshus): 300 kronor<br></br>
+                        Källare i hyreshus: 300 kronor<br></br>
+                        </p>
+                    </div>
+                    <div class="PostCard--HomeP relative">
+                        <p>
+                       Glöm inte att vi erbjuder även prisgaranti, det vill säga, om du hittar samma tjänst till lägre pris än oss så matchar vi det priset.
+                       <br></br><br></br></p>
+                        <a href="/#bokaoss"><div class="Button">Boka din städning nu</div></a>
+
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         </div>

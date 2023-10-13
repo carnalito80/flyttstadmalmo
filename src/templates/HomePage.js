@@ -28,7 +28,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
     <section className="section">
       <div className="container introjk">
         <h3 >Är du i behov av flyttstädning i Malmö?</h3>
-       <p>Flyttstädning Malmö utför flyttstädningar varje dag i Malmö. Vi arbetar noggrant samtidigt som vi håller låga priser. <br />
+       <p>Flyttstädning Malmö utför flyttstädningar varje dag i Malmö. Vi arbetar noggrant samtidigt som vi håller prisgaranti, dvs. hittar du någon annan tjänst som erbjuder lägre pris så matchar vi det. <br />
+        <p>Vi har bara egen personal, och använder oss inte av några underentrepenörer. Vi erbjuder även en <a href="/vanliga-fragor/">nöjd-kund-garanti.</a></p>
+        <p>Gör enkelt en <a href="/#bokaoss">bokning online</a>, eller ring oss på <a href="tel:073 637 99 08">073 637 99 08</a></p>
       <strong>Gör som 100-tals andra och boka oss redan idag!</strong>
         
         </p>
