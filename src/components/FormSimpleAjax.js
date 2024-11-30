@@ -52,6 +52,7 @@ class Form extends React.Component {
     delete data.matrix;
     delete data.info;
     data._replyto = data.email;
+    if (data.flyttstadning == "ja")  data.subject = data.subject + " + flytthjälp"
     
     this.setState({ disabled: true })
     fetch(form.action, {
@@ -188,6 +189,18 @@ class Form extends React.Component {
           <label className="Form--Shelf"><span>info</span>
           <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
           </label>
+          <div>
+            <label className="Form--Label Form--Radio">
+              <input  
+              className="Form--RadioInput"
+              type="checkbox"
+              name="flytthjalp"
+              value="ja"
+              />
+              <span>Jag är även intresserad av flytthjälp.</span>
+            </label>
+          </div>
+    
           <input
             className="Button Form--SubmitButton"
             type="submit"
@@ -329,7 +342,17 @@ class Form extends React.Component {
           <label className="Form--Shelf"><span>info</span>
           <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
           </label>
-       
+          <div >
+            <label className="Form--Label Form--Radio">
+              <input  
+              className="Form--RadioInput"
+              type="checkbox"
+              name="flytthjalp"
+              value="ja"
+              />
+              <span>Jag är även intresserad av flytthjälp.</span>
+            </label>
+          </div>
           <input
             className="Button Form--SubmitButton"
             type="submit"

@@ -8,13 +8,12 @@ import Parallax from '../components/Parallax'
 import Stars from '../components/Stars'
 import { Link } from 'gatsby'
 import Boka from '../components/Boka'
+import Helpmoving  from '../components/Helpmoving';
 
 import Image from '../components/Image'
 import '../components/PostCard.css'
 import '../components/PostSection.css'
 
-
-// Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, body }) => (
   <main className="Home">
     <PageHeader
@@ -28,9 +27,10 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
     <section className="section">
       <div className="container introjk">
         <h3 >Är du i behov av flyttstädning i Malmö?</h3>
-       <p>Flyttstädning Malmö utför flyttstädningar varje dag i Malmö. Vi arbetar noggrant samtidigt som vi håller prisgaranti, dvs. hittar du någon annan tjänst som erbjuder lägre pris så matchar vi det. <br />
-        <p>Vi har bara egen personal, och använder oss inte av några underentrepenörer. Vi erbjuder även en <a href="/vanliga-fragor/">nöjd-kund-garanti.</a></p>
-        <p>Gör enkelt en <a href="/#bokaoss">bokning online</a>, eller ring oss på <a href="tel:073 637 99 08">073 637 99 08</a></p>
+       <p>
+        Flyttstädning Malmö utför flyttstädningar varje dag i Malmö. Vi arbetar noggrant samtidigt som vi håller prisgaranti, dvs. hittar du någon annan tjänst som erbjuder lägre pris så matchar vi det. <br />
+        Vi har bara egen personal, och använder oss inte av några underentrepenörer. Vi erbjuder även en <a href="/vanliga-fragor/">nöjd-kund-garanti.</a><br />
+        Gör enkelt en <a href="/#bokaoss">bokning online</a>, eller ring oss på <a href="tel:073 637 99 08">073 637 99 08</a><br /><br />
       <strong>Gör som 100-tals andra och boka oss redan idag!</strong>
         
         </p>
@@ -160,25 +160,26 @@ Vi har lång erfarenhet av flyttstäd av olika slag, vi garanterar ett rent hem 
       <div>
      <h3>Flyttstädning Malmö Garanti</h3>
 
-<p>Vi  lämnar alltid garanti på våra flyttstädningar.
-Garantin gäller för både köparen och säljaren av bostaden.
+        <p>Vi  lämnar alltid garanti på våra flyttstädningar.
+        Garantin gäller för både köparen och säljaren av bostaden.
 
-Vissa saker måste ni som kund se till att ordna innan flyttstädningen, såsom:</p>
-<ul>
-<li>Tillgång till vatten</li>
-<li>Tillgång till el</li>
-</ul>
-<p>
-Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare behövs dessa vara framdragna.
-</p>
-<Link to="/vanliga-fragor">   <div className="Button">Mer om våran garanti</div></Link>
-      </div>
-      <div className="PostCard--HomeP relative"><Image background title="Flyttstädning Malmö städar din bostad" src="/images/flyttstadning-malmo-bra.jpg" alt="Flyttstädning Malmö städar din bostad" /></div>
-         
+        Vissa saker måste ni som kund se till att ordna innan flyttstädningen, såsom:</p>
+        <ul>
+        <li>Tillgång till vatten</li>
+        <li>Tillgång till el</li>
+        </ul>
+        <p>
+        Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare behövs dessa vara framdragna.
+        </p>
+        <Link to="/vanliga-fragor">   <div className="Button">Mer om våran garanti</div></Link>
+              </div>
+              <div className="PostCard--HomeP relative"><Image background title="Flyttstädning Malmö städar din bostad" src="/images/flyttstadning-malmo-bra.jpg" alt="Flyttstädning Malmö städar din bostad" /></div>
+                
       </div>
     </div>
   </div>
 </section>
+<Helpmoving />
 <div id="priser" style={{marginBottom:'100px'}}></div>
 <Parallax />
 <Stars />
@@ -186,25 +187,26 @@ Om det det ska rengöras bakom tvättmaskin, diskmanskiner eller torktumlare beh
 <section className="section">
 <div className="container" >
 <h2>Boka Oss På Flyttstädning Malmö</h2>
-<p>Fyll i formuläret nedan för att boka en flyttstädning. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
+<p>Fyll i formuläret nedan för att boka en flyttstädning eller flytthjälp. Alternativt ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong>.</p>
 </div>
 <div className="container  Contact--Section1--Container">
 <Boka name="Flyttstädning Malmö Bokning" />
 <div>
-<h5>Varför vill ni veta mitt personnummer?</h5>
-<p>
-Vi behöver ha ditt personnummer om du bokar en flyttstädning med oss och vill utnyttja RUT-avdraget. Vi kan nämligen inte ansöka om utbetalning för din räkning från Skatteverket om vi inte har ditt personnummer. 
-Det är Skatteverket som kräver den uppgiften – inte flyttstäd i Malmö.<br></br><br></br>
+  <h5>Varför vill ni veta mitt personnummer?</h5>
+  <p>
+    Vi behöver ha ditt personnummer om du bokar en flyttstädning med oss och vill utnyttja RUT-avdraget. Vi kan nämligen inte ansöka om utbetalning för din räkning från Skatteverket om vi inte har ditt personnummer. 
+    Det är Skatteverket som kräver den uppgiften – inte flyttstäd i Malmö.<br></br><br></br>
 
-Dessutom sker betalning mot faktura och då gör det faktureringsbolag som vi anlitar en kreditprövning av våra kunder.</p>
+    Dessutom sker betalning mot faktura och då gör det faktureringsbolag som vi anlitar en kreditprövning av våra kunder.
+  </p>
+  <h5>Vad avses med övriga städytor?</h5>
+  <p>
+    Exempel på övriga städytor som du vill ha städat eller få prisuppgift på är balkong, vind, förråd, garage och dylikt – det vill säga ytor som inte ingår i själva boytan.</p>
 
-<h5>Vad avses med övriga städytor?</h5>
-<p>
-Exempel på övriga städytor som du vill ha städat eller få prisuppgift på är balkong, vind, förråd, garage och dylikt – det vill säga ytor som inte ingår i själva boytan.</p>
-
-<h5>Vilken övrig info kan vara värt att fylla i?</h5>
-<p>Det kan röra sig om portkod, upplysningar om när överlåtelsen ska ske av huset / lägenheten, om möbler ska finnas kvar när vi städar, om vissa ytor inte behöver rengöras  till exempel.</p>
-
+  <h5>Vilken övrig info kan vara värt att fylla i?</h5>
+  <p>Det kan röra sig om portkod, upplysningar om när överlåtelsen ska ske av huset / lägenheten, om möbler ska finnas kvar när vi städar, om vissa ytor inte behöver rengöras  till exempel.</p>
+  <h5>Flytthjälp</h5>
+  <p>Vi erbjuder nu även flytthjälp via våra erfarna partners, och nskar du få offert för detta var vänlig kryssa i rutan och fyll i så mycket information som möjligt så återkommer vi med pris för detta, eller ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong></p>
 </div>
 </div>
 </section>
