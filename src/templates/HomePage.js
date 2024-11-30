@@ -88,7 +88,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, offertknapp, 
   <div className="container">
     <div className="PostSection">
       <div className="PostSection--GridJK">
-      <div className="PostCard--HomeP PostCard--Image-Hide relative"><Image background title="Ett rent och fint hem" src="/images/flyttstad-malmo-stadare.jpg" alt="Ett rent och fint hem" /></div>
+      <div className="PostCard--HomeP PostCard--Image-Hide relative"><Image background title="Ett rent och fint hem" src="/images/flyttstad-malmo-stadare.webp" alt="Ett rent och fint hem" /></div>
       
       <div>
      <h3>Vad ingår i flyttstädning Malmös tjänster</h3>
