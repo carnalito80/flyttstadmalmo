@@ -52,7 +52,7 @@ class Form extends React.Component {
     delete data.matrix;
     delete data.info;
     data._replyto = data.email;
-    if (data.flyttstadning == "ja")  data.subject = data.subject + " + flytthjälp"
+    if (data.flytthjalp == "ja")  data.subject = data.subject + " + flytthjälp"
     
     this.setState({ disabled: true })
     fetch(form.action, {
