@@ -18,14 +18,14 @@ export default class Meta extends Component {
   render() {
     const {
       title,
-      url,
+      //url,
       description,
       absoluteImageUrl = '',
-      twitterSiteAccount,
-      twitterCreatorAccount,
+     // twitterSiteAccount,
+      //twitterCreatorAccount,
       canonicalLink,
       siteTitle,
-      siteDescription,
+      //siteDescription,
       //googleTrackingId='UA-182855928-1',
       googleTrackingId='UA-194082323-1',
       // overwrite { title, description } if in fields or fields.meta

@@ -21,14 +21,14 @@ export class Navigation extends Component {
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
 
-  toggleSubNav = subNav =>
-    this.setState({
-      activeSubNav: this.state.activeSubNav === subNav ? false : subNav
-    })
+  // toggleSubNav = subNav =>
+  //   this.setState({
+  //     activeSubNav: this.state.activeSubNav === subNav ? false : subNav
+  //   })
 
   render() {
     const { active } = this.state,
-      { subNav } = this.props,
+      // { subNav } = this.props,
       NavLink = ({ to, className, children, ...props }) => (
         <Link
           to={to}
