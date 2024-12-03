@@ -173,7 +173,7 @@ Vi har lång erfarenhet av flyttstäd av olika slag, vi garanterar ett rent hem 
         </p>
         <Link to="/vanliga-fragor">   <div className="Button">Mer om våran garanti</div></Link>
               </div>
-              <div className="PostCard--HomeP relative"><Image background title="Flyttstädning Malmö städar din bostad" src="/images/flyttstadning-malmo-bra.jpg" alt="Flyttstädning Malmö städar din bostad" /></div>
+              <div className="PostCard--HomeP-Hide relative"><Image background title="Flyttstädning Malmö städar din bostad" src="/images/flyttstadning-malmo-bra.jpg" alt="Flyttstädning Malmö städar din bostad" /></div>
                 
       </div>
     </div>
@@ -206,7 +206,7 @@ Vi har lång erfarenhet av flyttstäd av olika slag, vi garanterar ett rent hem 
   <h5>Vilken övrig info kan vara värt att fylla i?</h5>
   <p>Det kan röra sig om portkod, upplysningar om när överlåtelsen ska ske av huset / lägenheten, om möbler ska finnas kvar när vi städar, om vissa ytor inte behöver rengöras  till exempel.</p>
   <h5>Flytthjälp</h5>
-  <p>Vi erbjuder nu även flytthjälp via våra erfarna partners, och nskar du få offert för detta var vänlig kryssa i rutan och fyll i så mycket information som möjligt så återkommer vi med pris för detta, eller ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong></p>
+  <p>Vi erbjuder nu även flytthjälp via våra erfarna partners, och önskar du få offert för detta var vänlig kryssa i rutan och fyll i så mycket information som möjligt så återkommer vi med pris för detta, eller ring <strong><a href="tel:073 637 99 08">073 637 99 08</a></strong></p>
 </div>
 </div>
 </section>

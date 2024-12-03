@@ -5,7 +5,7 @@ export default () => (
   <div className="container">
     <div className="PostSection">
       <div className="PostSection--GridJK">
-        <div className="PostCard--HomeP PostCard--Image-Hide relative"><Image background title="Flytthjälp" src="/images/flytthjalp2.webp" alt="Flytthjälp Malmö" /></div>
+        <div className="PostCard--HomeP PostCard--Image relative"><Image background title="Flytthjälp" src="/images/flytthjalp2.webp" alt="Flytthjälp Malmö" /></div>
         <div>
             <h3>Flytthjälp</h3>
             <p>Vi erbjuder smidig och professionell flytthjälp som gör din flytt enkel och stressfri. Oavsett om det handlar om en privatflytt eller en företagsflytt, finns våra erfarna partners redo att hantera allt från packning och transport till montering och uppackning.<br></br> 
